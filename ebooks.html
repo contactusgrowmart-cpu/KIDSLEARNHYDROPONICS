@@ -1,43 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ebooks</title>
-  <style>
-    body { font-family: Arial; padding:20px; background:#f2f7f3; }
-    nav a { margin:10px; text-decoration:none; font-weight:bold; color:#2e7d32; }
-    .book { background:white; padding:15px; margin:10px 0; border-radius:8px; }
-    .buy { display:inline-block; padding:10px 15px; background:#43a047; color:white; text-decoration:none; border-radius:5px; }
-  </style>
+<meta charset="UTF-8">
+<title>Ebooks Store</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4fbf5;}
+nav{background:#1b5e20;padding:15px;text-align:center;}
+nav a{color:white;margin:10px;text-decoration:none;font-weight:bold;}
+
+.container{padding:30px;}
+h1{text-align:center;color:#1b5e20;}
+
+.grid{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
+
+.card{
+width:250px;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{color:#2e7d32;}
+
+.buy{
+display:inline-block;
+margin-top:10px;
+padding:10px 15px;
+background:#43a047;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+</style>
+
 </head>
+
 <body>
 
 <nav>
   <a href="index.html">Home</a>
-  <a href="learn-basics.html">Learn Basics</a>
-  <a href="plant-growth.html">Plant Growth</a>
+  <a href="learn-basics.html">Basics</a>
+  <a href="plant-growth.html">Growth</a>
   <a href="nutrients-guide.html">Nutrients</a>
   <a href="mini-projects.html">Projects</a>
   <a href="ebooks.html">Ebooks</a>
 </nav>
 
-<h1>Hydroponics Ebooks</h1>
+<div class="container">
 
-<div class="book">
-  <h3>Starter Guide</h3>
-  <p>Basic hydroponics explained for kids</p>
-  <a class="buy" href="#">Buy Now</a>
+<h1>📘 Ebooks</h1>
+
+<div class="grid">
+
+<div class="card">
+<h3>Starter Guide</h3>
+<p>Basic hydroponics</p>
+<a class="buy" href="buy.html">Buy Now</a>
 </div>
 
-<div class="book">
-  <h3>DIY Projects Book</h3>
-  <p>Step-by-step builds</p>
-  <a class="buy" href="#">Buy Now</a>
+<div class="card">
+<h3>DIY Projects</h3>
+<p>Build systems step-by-step</p>
+<a class="buy" href="buy.html">Buy Now</a>
 </div>
 
-<div class="book">
-  <h3>Plant Health Guide</h3>
-  <p>Fix yellow leaves and growth problems</p>
-  <a class="buy" href="#">Buy Now</a>
+<div class="card">
+<h3>Plant Health</h3>
+<p>Fix nutrient problems</p>
+<a class="buy" href="buy.html">Buy Now</a>
+</div>
+
+</div>
+
 </div>
 
 </body>
