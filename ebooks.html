@@ -1,15 +1,100 @@
-<h2 style="text-align:center; margin-top:40px; color:#1b5e20;">
-Choose Your Preferred Store
-</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ebooks Store</title>
 
-<div style="text-align:center; margin:30px 0;">
+<style>
+body{font-family:Arial;margin:0;background:#f4fbf5;}
+nav{background:#1b5e20;padding:15px;text-align:center;}
+nav a{color:white;margin:10px;text-decoration:none;font-weight:bold;}
 
-<a class="buy" href="https://growmart.gumroad.com/" target="_blank" style="display:inline-block; margin:10px;">
+.container{padding:30px;}
+h1{text-align:center;color:#1b5e20;}
+
+.grid{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
+
+.card{
+width:250px;
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.card h3{color:#2e7d32;}
+
+.buy{
+display:inline-block;
+margin-top:10px;
+padding:12px 22px;
+background:#43a047;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+.store-buttons{
+text-align:center;
+margin-top:40px;
+}
+
+.store-buttons .buy{
+margin:10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="learn-basics.html">Basics</a>
+  <a href="plant-growth.html">Growth</a>
+  <a href="nutrients-guide.html">Nutrients</a>
+  <a href="mini-projects.html">Projects</a>
+  <a href="ebooks.html">Ebooks</a>
+</nav>
+
+<div class="container">
+
+<h1>📘 Ebooks</h1>
+
+<div class="grid">
+
+<div class="card">
+<h3>Starter Guide</h3>
+<p>Basic hydroponics</p>
+</div>
+
+<div class="card">
+<h3>DIY Projects</h3>
+<p>Build systems step-by-step</p>
+</div>
+
+<div class="card">
+<h3>Plant Health</h3>
+<p>Fix nutrient problems</p>
+</div>
+
+</div>
+
+<div class="store-buttons">
+
+<a class="buy" href="https://growmart.gumroad.com/" target="_blank">
 📘 Shop on Gumroad
 </a>
 
-<a class="buy" href="https://payhip.com/GrowmartHydroponics" target="_blank" style="display:inline-block; margin:10px;">
+<a class="buy" href="https://payhip.com/GrowmartHydroponics" target="_blank">
 🛒 Shop on Payhip
 </a>
 
 </div>
+
+</div>
+
+</body>
+</html>
