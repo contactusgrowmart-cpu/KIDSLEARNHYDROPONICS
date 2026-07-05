@@ -1,1 +1,5 @@
 theme: null
+plugins:
+  - jekyll-remote-theme
+
+remote_theme: pages-themes/cayman
